@@ -186,8 +186,6 @@ body {
     bottom: -50px;
     position: absolute;
     margin-left: 48%;
-  
-   
     transform: translate(-50%, -50%)
     
 }
@@ -213,8 +211,6 @@ body {
     font-family: cursive;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: deeppink;
-
-
 }
 .conbook {
     color: white;
@@ -368,12 +364,10 @@ border: 5px solid black;
     -webkit-text-stroke-color: black;
     padding-top: 2%;
     padding-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
     margin-left: 2px;
     margin-top: 3%;
     line-height: 2px;  
-}
-.aboutmaindiv {
-    background-color: rgba(0, 0, 0, 0.5);
 }
 .covidbody {
     background-image: url("db.jpg");
@@ -589,6 +583,7 @@ padding-top: 3%;
     .mo {
         max-width: 80%;
         margin-left: 8%;
+        padding-bottom:10%;
     } 
     .contact {
         margin-left: 250px; 
