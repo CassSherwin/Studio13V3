@@ -285,6 +285,7 @@ h5 {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     padding-top: 1%;
+    overflow-x: hidden;
   }
   .sl {
     font-size: 75px;
