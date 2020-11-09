@@ -672,6 +672,14 @@ padding-top: 3%;
  .servstardivforreviews {
     padding-left:0px;
 }
+    .revbody {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    .revdiv {
+    max-width: 98%;
+    overflow-x: hidden;  
+    }
 }
 
 /*Medium devices (tablets, less than 992px)
