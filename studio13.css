@@ -650,13 +650,11 @@ padding-top: 3%;
 }
 
  .scrolldiv {
-    max-width: 98%;
-    width: auto;
+
     
  }
  .scrolldiv img {
-    margin-left: 1px;
-    width: auto;
+ 
 }
 .dropbox {
     width: 500px;
@@ -677,7 +675,7 @@ padding-top: 3%;
     overflow-x: hidden;
     }
     .revdiv {
-    max-width: 98%; 
+   
     }
 }
 
