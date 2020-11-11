@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     text-size-adjust: auto;
+    background-size: contain;
     width: 100%;
     position: absolute;
     top: 0;
@@ -650,11 +651,11 @@ padding-top: 3%;
 }
 
  .scrolldiv {
-
+    width: 100%;
     
  }
  .scrolldiv img {
- 
+ width: 100%;
 }
 .dropbox {
     width: 500px;
@@ -671,10 +672,10 @@ padding-top: 3%;
     padding-left:0px;
 }
     .revbody {
- 
+    width: 100%;
     }
     .revdiv {
-   
+    width: 100%;
     }
 }
 
