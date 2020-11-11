@@ -353,8 +353,8 @@ border: 5px solid black;
 }
 .am {
     font-size: 17px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+ 
 }
 .mainpageheader ul li {
     font-size: 2em;
@@ -374,9 +374,7 @@ border: 5px solid black;
     margin-top: 3%;
     line-height: 2px;  
 }
-.mo, .special, .am,  {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+
 .covidbody {
     background-image: url("db.jpg");
     background-color: #cccccc; /* Used if the image is unavailable */
