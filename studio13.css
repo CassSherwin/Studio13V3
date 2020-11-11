@@ -372,7 +372,7 @@ border: 5px solid black;
     margin-top: 3%;
     line-height: 2px;  
 }
-.aboutmaindiv {
+.mo, .special, .am,  {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .covidbody {
