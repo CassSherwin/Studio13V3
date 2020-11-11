@@ -615,15 +615,15 @@ padding-top: 3%;
  }
 
  .revdiv {
-     overflow: hidden
+     overflow: hidden;
      width: 150%;
 }
  .scrolldiv {
-     overflow: hidden
+     overflow: hidden;
      width: 150%;
  }
  .scrolldiv img {
-     overflow: hidden
+     overflow: hidden;
      width: 150%;
  }
  .dropbox {
@@ -681,15 +681,15 @@ padding-top: 3%;
     -webkit-text-stroke-color: lightgray;
 }
  .revdiv {
-     overflow: hidden
+     overflow: hidden;
      width: 150%;
 }
  .scrolldiv {
-     overflow: hidden 
+     overflow: hidden; 
      width: 150%;
  }
  .scrolldiv img {
-     overflow: hidden
+     overflow: hidden;
      width: 150%;
  }
 .dropbox {
