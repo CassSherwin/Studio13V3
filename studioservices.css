@@ -290,7 +290,7 @@ body {
 /* end of star button CSS */
 /* For size adjustments*/
 
-/* For size adjustments
+/* For size adjustments*/
 
 @media all and (max-width: 768px) {
     html, body {min-height: 100%;}
@@ -300,7 +300,7 @@ body {
         overflow-x: hidden;
     }
    .rightpics {
-    padding-left: 10em;
+    padding-left: 20em;
    }
 }
 @media (max-width: 600px) {
@@ -311,7 +311,7 @@ body {
         overflow-x: hidden;
     }
  .rightpics {
-    padding-left: 10em;
+    padding-left: 20em;
    }
 
 
