@@ -311,10 +311,11 @@ body {
         overflow-x: hidden;
     }
  .rightpics {
-    padding-left: 30em;
+    padding-left: 10em;
    }
-
-
+.serviceslist {
+    margin-left: -10px;
+    }
     
 }
 @media all and (max-width:640px){
@@ -325,9 +326,11 @@ body {
         overflow-x: hidden;
     }
    .rightpics {
-    padding-left: 30em;
+    padding-left: 10em;
    }
-  
+  .serviceslist {
+    margin-left: -10px;
+    }
 
 }
 
