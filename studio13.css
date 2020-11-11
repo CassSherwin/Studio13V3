@@ -615,8 +615,7 @@ padding-top: 3%;
  }
 
  .revdiv {
- 
-    
+ overflow: visible;  
 }
  .scrolldiv {
 
@@ -684,6 +683,9 @@ padding-top: 3%;
  }
  .scrolldiv img {
 
+}
+ .revdiv {
+ overflow: visible;  
 }
 .dropbox {
     width: 500px;
