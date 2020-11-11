@@ -363,7 +363,7 @@ border: 5px solid black;
     color: aqua;
     width: 600px;
     height: 675px;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
     padding-top: 2%;
     padding-bottom: 2%;
