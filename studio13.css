@@ -353,6 +353,8 @@ border: 5px solid black;
 }
 .am {
     font-size: 17px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 .mainpageheader ul li {
     font-size: 2em;
