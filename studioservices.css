@@ -344,7 +344,7 @@ body {
     width: 30em;
     
 }
-  .sidepics {
+  .sidepic {
       width: 5%;
     }
     
@@ -369,6 +369,9 @@ body {
 }
         .scrolldiv {
         padding-right:3em;
+    }
+      .sidepic {
+      width: 5%;
     }
 
 }
