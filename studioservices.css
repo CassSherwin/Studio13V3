@@ -102,14 +102,7 @@ body {
     width: 18em;
     height: 18em;
 }
-.serviceslist {
-    display: flex;                  /* establish flex container */
-    flex-direction: row;            /* default value; can be omitted */
-    flex-wrap: nowrap;              /* default value; can be omitted */
-    justify-content: space-between;
-    width: 50em;
-    
-}
+
 .scrolldiv > ul {
     width: 55em;
 }
