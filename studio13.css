@@ -10,11 +10,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     text-size-adjust: auto;
+    height: 100%;
     background-size: contain;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
   }
   /* start of star button CSS */
 .mainpageheader {
@@ -26,6 +23,7 @@ body {
     border-color: black;
 
 }
+
 .salondiv{
     width: 100%;
     height: 100%;
@@ -187,6 +185,8 @@ body {
     bottom: -50px;
     position: absolute;
     margin-left: 48%;
+  
+   
     transform: translate(-50%, -50%)
     
 }
@@ -212,6 +212,8 @@ body {
     font-family: cursive;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: deeppink;
+
+
 }
 .conbook {
     color: white;
@@ -334,8 +336,8 @@ h5 {
 }
 .scrolldiv img{
 margin-top: 5%;
-margin-left: 25%;
 border: 5px solid black;
+
 }
 .logoimg {
     width: 70px;
@@ -365,10 +367,13 @@ border: 5px solid black;
     -webkit-text-stroke-color: black;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.5);
+    
     margin-left: 2px;
     margin-top: 3%;
     line-height: 2px;  
+}
+.aboutmaindiv {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .covidbody {
     background-image: url("db.jpg");
@@ -456,7 +461,7 @@ color:black;
     font-weight: bolder;
 }
 .servstardivforreviews {
-    padding-left:100px;
+    margin-left: 10%;
 }
     
 /* For size adjustments
@@ -546,7 +551,6 @@ color:black;
     padding-right: 10%;
     background: none;
 }
-
 .bookbuttondiv, .bookbutton,   {
     margin-bottom: 2%;
 }
@@ -584,7 +588,6 @@ padding-top: 3%;
     .mo {
         max-width: 80%;
         margin-left: 8%;
-        padding-bottom:40%;
     } 
     .contact {
         margin-left: 250px; 
@@ -593,6 +596,22 @@ padding-top: 3%;
      color: lightgray;
      -webkit-text-stroke-width: .5px;
      -webkit-text-stroke-color: lightgray;
+ }
+ .mainbody {
+
+    background-image: url("5hair.jpg");
+    background-color: purple; /* Used if the image is unavailable */
+    background-repeat: no-repeat; /* Do not repeat the image */
+     /* Resize the background image to cover the entire container */
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    text-size-adjust: auto;
+    height: 100%;
+    max-width: 100%;
+    height: auto;
+    font-size: x-small;
+    }
  }
 
  .revdiv {
@@ -607,7 +626,7 @@ padding-top: 3%;
     margin-right: -500px; 
  }
  .scrolldiv img {
-     
+     margin-left: 1px;
  }
  .dropbox {
      width: 200px;
@@ -632,6 +651,20 @@ padding-top: 3%;
         height: auto;
         
         } 
+    .mainbody {
+    background-image: url("5hair.jpg");
+    background-color: purple; /* Used if the image is unavailable */
+    background-repeat: no-repeat; /* Do not repeat the image */
+     /* Resize the background image to cover the entire container */
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    text-size-adjust: auto;
+    height: 100%;
+    max-width: 100%;
+    height: auto;
+    font-size: x-small;
+    }
     .maintext {
         margin-bottom: 6%;
             }   
@@ -651,11 +684,13 @@ padding-top: 3%;
 }
 
  .scrolldiv {
-    width: 100%;
-    
+    max-width: 98%;
+    width: auto;
+    overflow-x: hidden;
  }
  .scrolldiv img {
- width: 100%;
+    margin-left: 1px;
+    width: auto;
 }
 .dropbox {
     width: 500px;
@@ -671,12 +706,6 @@ padding-top: 3%;
  .servstardivforreviews {
     padding-left:0px;
 }
-    .revbody {
-    width: 100%;
-    }
-    .revdiv {
-    width: 100%;
-    }
 }
 
 /*Medium devices (tablets, less than 992px)
@@ -729,6 +758,62 @@ padding-top: 3%;
    white-space: normal;
 }
  }
+
+ @media (max-width: 767.98px) { 
+    body {
+        max-width: 100%;
+        height: auto;
+        
+        } 
+    .maintext {
+        margin-bottom: 6%;
+            }   
+    .mo {
+        max-width: 80%;
+    } 
+    .mebook {
+        margin-bottom: 2%;
+    }
+    .contact {
+        margin-left: 250px; 
+ }
+ .loc {
+    color: lightgray;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: lightgray;
+}
+
+ .scrolldiv {
+    max-width: 98%;
+    width: auto;
+    
+ }
+ .scrolldiv img {
+    margin-left: 1px;
+    width: auto;
+}
+.dropbox {
+    width: 500px;
+}
+.dropbox > a {
+   white-space: normal;
+}
+.stardiv {
+    width: 5%;
+    height: 5%;
+    margin-bottom: 98px;
+ }
+ .servstardivforreviews {
+    padding-left:0px;
+}
+    .revbody {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    .revdiv {
+    max-width: 98%; 
+    }
+}
 
 */
 @media (max-width: 1199.98px) { 
