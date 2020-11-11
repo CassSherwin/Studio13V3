@@ -615,13 +615,16 @@ padding-top: 3%;
  }
 
  .revdiv {
- overflow: visible;  
+    overflow: visible; 
+     width: 100%;
 }
  .scrolldiv {
-
+     overflow: visible; 
+     width: 100%;
  }
  .scrolldiv img {
- 
+     overflow: visible; 
+     width: 100%;
  }
  .dropbox {
      width: 200px;
@@ -677,16 +680,18 @@ padding-top: 3%;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: lightgray;
 }
-
+ .revdiv {
+    overflow: visible; 
+     width: 100%;
+}
  .scrolldiv {
-
+     overflow: visible; 
+     width: 100%;
  }
  .scrolldiv img {
-
-}
- .revdiv {
- overflow: visible;  
-}
+     overflow: visible; 
+     width: 100%;
+ }
 .dropbox {
     width: 500px;
 }
