@@ -309,7 +309,7 @@ body {
 /* end of star button CSS */
 /* For size adjustments*/
 
-/* For size adjustments*/
+/* For size adjustments
 
 @media all and (max-width: 768px) {
     html, body {min-height: 100%;}
@@ -337,9 +337,9 @@ body {
         padding-right:3em;
     }
 .serviceslist {
-    display: flex;                  /* establish flex container */
-    flex-direction: row;            /* default value; can be omitted */
-    flex-wrap: nowrap;              /* default value; can be omitted */
+    display: flex;                  /* establish flex container 
+    flex-direction: row;            /* default value; can be omitted 
+    flex-wrap: nowrap;              /* default value; can be omitted 
     justify-content: space-between;
     width: 30em;
     
@@ -360,9 +360,9 @@ body {
     padding-left: 10em;
    }
 .serviceslist {
-    display: flex;                  /* establish flex container */
-    flex-direction: row;            /* default value; can be omitted */
-    flex-wrap: nowrap;              /* default value; can be omitted */
+    display: flex;                  /* establish flex container 
+    flex-direction: row;            /* default value; can be omitted 
+    flex-wrap: nowrap;              /* default value; can be omitted 
     justify-content: space-between;
     width: 30em;
     
