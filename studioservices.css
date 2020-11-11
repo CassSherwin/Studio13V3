@@ -316,7 +316,7 @@ body {
     .container, body{
         width:100%;
         height: 100%;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
    .rightpics {
     padding-left: 10em;
@@ -333,6 +333,9 @@ body {
  .rightpics {
     padding-left: 10em;
    }
+    .scrolldiv {
+        padding-right:3em;
+    }
 .serviceslist {
     
     }
@@ -353,6 +356,9 @@ body {
    }
   .serviceslist {
    
+    }
+        .scrolldiv {
+        padding-right:3em;
     }
 
 }
