@@ -615,16 +615,13 @@ padding-top: 3%;
  }
 
  .revdiv {
-     overflow: hidden;
-     width: 200%;
+   
 }
  .scrolldiv {
-     overflow: hidden;
-     width: 200%;
+  
  }
  .scrolldiv img {
-     overflow: hidden;
-     width: 200%;
+
  }
  .dropbox {
      width: 200px;
