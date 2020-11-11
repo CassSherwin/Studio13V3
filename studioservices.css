@@ -106,6 +106,14 @@ body {
 .scrolldiv > ul {
     width: 55em;
 }
+.serviceslist {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between;
+    width: 50em;
+    
+}
 
 /* start of star button CSS */
 #star-five {
@@ -330,8 +338,13 @@ body {
         padding-right:3em;
     }
 .serviceslist {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between;
+    width: 30em;
     
-    }
+}
   .sidepics {
       width: 5%;
     }
@@ -347,9 +360,14 @@ body {
    .rightpics {
     padding-left: 10em;
    }
-  .serviceslist {
-   
-    }
+.serviceslist {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between;
+    width: 30em;
+    
+}
         .scrolldiv {
         padding-right:3em;
     }
