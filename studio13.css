@@ -583,7 +583,7 @@ padding-top: 3%;
     font-size: x-small;
     }
     .maintext {
-         margin-bottom: 6%;
+         margin-bottom: 10%;
     }
     .mo {
         max-width: 80%;
@@ -603,13 +603,13 @@ padding-top: 3%;
     background-color: purple; /* Used if the image is unavailable */
     background-repeat: no-repeat; /* Do not repeat the image */
      /* Resize the background image to cover the entire container */
-    width: 100%;
+  
     background-attachment: fixed;
     background-position: center;
     text-size-adjust: auto;
-    height: 100%;
+   
     max-width: 100%;
-    height: auto;
+    
     font-size: x-small;
     }
  }
@@ -619,14 +619,10 @@ padding-top: 3%;
     
 }
  .scrolldiv {
-    max-width: 98%;
-    width: auto;
-    overflow-x: visible;
-    padding-right: 500px; 
-    margin-right: -500px; 
+
  }
  .scrolldiv img {
-     margin-left: 1px;
+ 
  }
  .dropbox {
      width: 200px;
@@ -656,13 +652,13 @@ padding-top: 3%;
     background-color: purple; /* Used if the image is unavailable */
     background-repeat: no-repeat; /* Do not repeat the image */
      /* Resize the background image to cover the entire container */
-    width: 100%;
+   
     background-attachment: fixed;
     background-position: center;
     text-size-adjust: auto;
-    height: 100%;
+   
     max-width: 100%;
-    height: auto;
+   
     font-size: x-small;
     }
     .maintext {
@@ -684,13 +680,10 @@ padding-top: 3%;
 }
 
  .scrolldiv {
-    max-width: 98%;
-    width: auto;
-    overflow-x: hidden;
+
  }
  .scrolldiv img {
-    margin-left: 1px;
-    width: auto;
+
 }
 .dropbox {
     width: 500px;
