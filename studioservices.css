@@ -225,104 +225,84 @@ body {
 }
 .pic1 {
     content: url("1hair.jpg");
-     max-width: 100%;
-     height: auto;     
+    
 }
 .pic2 {
     content: url("3hair.jpg");
-    max-width: 100%;
-    height: auto;
+
 }
 .pic3 {
     content: url("4hair.jpg");
-    max-width: 100%;
-    height: auto;
+
 }
 .pic4 {
     content: url("5hair.jpg");
-    max-width: 100%;
-    height: auto;
+  
 }
 .pic5 {
     content: url("7hair.jpg");
     margin-right:0px;
-    max-width: 100%;
-    height: auto;
+
 }
 .pic6 {
     content: url("12hair.jpg");
-    max-width: 100%;
-    height: auto;
+
 }
 .pic7 {
     content: url("25hair.jpg");
-    max-width: 100%;
-    height: auto;
+
 }
 .pic8 {
     content: url("9hair.jpg");
-      max-width: 100%;
-      height: auto;
+
 }
 .pic9 {
     content: url("6hair.jpg");
-    max-width: 100%;
-    height: auto;
+
 }
 .pic10 {
     content: url("11hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic11 {
     content: url("13hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic12 {
     content: url("14hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic13 {
     content: url("15hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic14 {
     content: url("16hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic15 {
     content: url("17hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic16 {
     content: url("18hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic17 {
     content: url("24hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic18 {
     content: url("22hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic19 {
     content: url("10hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 .pic20 {
     content: url("23hair.jpg");
-      max-width: 100%;
-  height: auto;
+
 }
 
 
@@ -353,7 +333,7 @@ body {
     padding-left: 10em;
    }
 .serviceslist {
-    margin-left: -10px;
+    
     }
     
 }
@@ -368,7 +348,7 @@ body {
     padding-left: 10em;
    }
   .serviceslist {
-    margin-left: -10px;
+   
     }
 
 }
