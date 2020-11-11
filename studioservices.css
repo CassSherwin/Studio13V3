@@ -300,7 +300,7 @@ body {
         overflow-x: hidden;
     }
    .rightpics {
-    padding-left: 20em;
+    padding-left: 10em;
    }
 }
 @media (max-width: 600px) {
@@ -311,7 +311,7 @@ body {
         overflow-x: hidden;
     }
  .rightpics {
-    padding-left: 20em;
+    padding-left: 30em;
    }
 
 
@@ -325,7 +325,7 @@ body {
         overflow-x: hidden;
     }
    .rightpics {
-    padding-left: 10em;
+    padding-left: 30em;
    }
   
 
