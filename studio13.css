@@ -462,7 +462,7 @@ color:black;
     -webkit-text-stroke-color: hotpink;
     font-weight: bolder;
 }
- .servstardivforreviews {
+ .reviewstar {
 position: absolute;
 left: 0;
 right: 0;
@@ -703,9 +703,7 @@ padding-top: 3%;
     height: 5%;
     margin-bottom: 98px;
  }
- .servstardivforreviews {
-   
-}
+
 }
 
 /*Medium devices (tablets, less than 992px)
