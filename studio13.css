@@ -818,4 +818,7 @@ and (orientation : portrait) {
     .salondiv {
         margin-bottom: 2%;
     }
+    .maintext {
+        margin-bottom: 2%;
+    }
 }
