@@ -313,7 +313,9 @@ body {
  .rightpics {
     padding-left: 10em;
    }
-
+.serviceslist {
+    width: 200px;
+    }
 
     
 }
