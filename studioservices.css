@@ -102,7 +102,14 @@ body {
     width: 18em;
     height: 18em;
 }
-
+.serviceslist {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between;
+    width: 50em;
+    
+}
 .scrolldiv > ul {
     width: 55em;
 }
@@ -218,98 +225,72 @@ body {
 }
 .pic1 {
     content: url("1hair.jpg");
-    
+     
 }
 .pic2 {
     content: url("3hair.jpg");
-
 }
 .pic3 {
     content: url("4hair.jpg");
-
 }
 .pic4 {
     content: url("5hair.jpg");
-  
 }
 .pic5 {
     content: url("7hair.jpg");
     margin-right:0px;
-
 }
 .pic6 {
     content: url("12hair.jpg");
-
 }
 .pic7 {
     content: url("25hair.jpg");
-
 }
 .pic8 {
     content: url("9hair.jpg");
-
 }
 .pic9 {
     content: url("6hair.jpg");
-
 }
 .pic10 {
     content: url("11hair.jpg");
-
 }
 .pic11 {
     content: url("13hair.jpg");
-
 }
 .pic12 {
     content: url("14hair.jpg");
-
 }
 .pic13 {
     content: url("15hair.jpg");
-
 }
 .pic14 {
     content: url("16hair.jpg");
-
 }
 .pic15 {
     content: url("17hair.jpg");
-
 }
 .pic16 {
     content: url("18hair.jpg");
-
 }
 .pic17 {
     content: url("24hair.jpg");
-
 }
 .pic18 {
     content: url("22hair.jpg");
-
 }
 .pic19 {
     content: url("10hair.jpg");
-
 }
 .pic20 {
     content: url("23hair.jpg");
+}
 
-}
-.serviceslist {
-    display: flex;                  /* establish flex container */
-    flex-direction: row;            /* default value; can be omitted */
-    flex-wrap: nowrap;              /* default value; can be omitted */
-    justify-content: space-between;
-    width: 50em;
-    
-}
 
 /* end of star button CSS */
 /* For size adjustments*/
 
-/* For size adjustments
+/* For size adjustments*/
 
 @media all and (max-width: 768px) {
     html, body {min-height: 100%;}
@@ -321,32 +302,19 @@ body {
    .rightpics {
     padding-left: 10em;
    }
-
 }
 @media (max-width: 600px) {
   html, body {min-height: 100%;}
     .container, body{
         width:100%;
         height: 100%;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
  .rightpics {
     padding-left: 10em;
    }
-    .scrolldiv {
-        padding-right:3em;
-    }
-.serviceslist {
-    display: flex;                  /* establish flex container 
-    flex-direction: row;            /* default value; can be omitted 
-    flex-wrap: nowrap;              /* default value; can be omitted 
-    justify-content: space-between;
-    width: 30em;
-    
-}
-  .sidepic {
-      width: 5%;
-    }
+
+
     
 }
 @media all and (max-width:640px){
@@ -354,25 +322,12 @@ body {
     .container, body{
         width:100%;
         height: 100%;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
    .rightpics {
     padding-left: 10em;
    }
-.serviceslist {
-    display: flex;                  /* establish flex container 
-    flex-direction: row;            /* default value; can be omitted 
-    flex-wrap: nowrap;              /* default value; can be omitted 
-    justify-content: space-between;
-    width: 30em;
-    
-}
-        .scrolldiv {
-        padding-right:3em;
-    }
-      .sidepic {
-      width: 5%;
-    }
+  
 
 }
 
@@ -407,4 +362,5 @@ body {
    }
 
 }
+
 
