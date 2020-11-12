@@ -817,7 +817,7 @@ and (max-device-width : 1024px)
 and (orientation : portrait) { 
  
     .maintext {
-        padding-bottom: 4em;
+        padding-bottom: 1em;
     }
 }
 
@@ -827,7 +827,7 @@ and (orientation : portrait) {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
         .maintext {
-        padding-bottom: 4em;
+        padding-bottom: 1em;
     }
 }
 @media only screen 
@@ -836,6 +836,6 @@ and (orientation : portrait) {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
      .maintext {
-        padding-bottom: 4em;
+        padding-bottom: 1em;
     }
 }
