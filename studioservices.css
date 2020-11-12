@@ -303,7 +303,7 @@ body {
     padding-left: 10em;
    }
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   html, body {min-height: 100%;}
     .container, body{
         width:100%;
@@ -314,7 +314,7 @@ body {
     padding-left: 10em;
    }
 .serviceslist {
-    width: 200px;
+    width: 50%;
     }
 
     
