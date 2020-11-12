@@ -478,9 +478,33 @@ html {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-     .cdiv {
-        margin-left: -10%;
+         body {
+        max-width: 100%;
+        height: auto; 
+        }
+    .cdiv {
+        width: 50%;
+        position: relative;
+        left: -100px; 
     }
+           .imgdiv{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .innerdiv {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        #carouselExampleControls {
+            max-width: 80%;
+            margin: 0 auto;
+         }
+                  .galstar {
+    margin-left: 0%;
+}
+         .testserv {
+         padding-top: 10em;
+     }
 }
 
 @media only screen 
@@ -488,16 +512,64 @@ and (orientation : portrait) {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-        .cdiv {
-        margin-left: -10%;
+            body {
+        max-width: 100%;
+        height: auto; 
+        }
+    .cdiv {
+        width: 50%;
+        position: relative;
+        left: -100px; 
     }
+           .imgdiv{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .innerdiv {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        #carouselExampleControls {
+            max-width: 80%;
+            margin: 0 auto;
+         }
+                  .galstar {
+    margin-left: 0%;
+}
+         .testserv {
+         padding-top: 10em;
+     }
 }
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
-     .cdiv {
-        margin-left: -10%;
+           body {
+        max-width: 100%;
+        height: auto; 
+        }
+    .cdiv {
+        width: 50%;
+        position: relative;
+        left: -100px; 
     }
+           .imgdiv{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .innerdiv {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        #carouselExampleControls {
+            max-width: 80%;
+            margin: 0 auto;
+         }
+                  .galstar {
+    margin-left: 0%;
+}
+         .testserv {
+         padding-top: 10em;
+     }
 }
