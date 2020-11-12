@@ -462,8 +462,11 @@ color:black;
     -webkit-text-stroke-color: hotpink;
     font-weight: bolder;
 }
-.reviewstar {
-
+ .servstardivforreviews {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto
 }
     
 /* For size adjustments
@@ -636,9 +639,7 @@ padding-top: 3%;
     height: 5%;
     margin-bottom: 98px;
  }
- .servstardivforreviews {
-    
-}
+
 
 }
 /*Small devices (landscape phones, less than 768px) */
