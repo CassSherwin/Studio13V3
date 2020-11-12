@@ -462,7 +462,12 @@ color:black;
     -webkit-text-stroke-color: hotpink;
     font-weight: bolder;
 }
-
+.reviewstar {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto
+}
     
 /* For size adjustments
 
