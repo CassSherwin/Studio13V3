@@ -67,6 +67,8 @@ body {
     height:1px;
     border-width: .5px;
     background-color: lightblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     
 }
 .mainservline {
@@ -74,6 +76,8 @@ body {
     border-width: 1px;
     color:lightblue;
     background-color: lightblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .subserv {
