@@ -285,7 +285,9 @@ body {
 .pic20 {
     content: url("23hair.jpg");
 }
-
+.serviceslist {
+    color: black;
+}
 
 /* end of star button CSS */
 /* For size adjustments*/
