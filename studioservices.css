@@ -19,7 +19,7 @@ body {
     padding-top: 25%;
     text-align: center;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #3f75a2;
+    -webkit-text-stroke-color: black;
     font-size: 75px;
     font-family: 'Berkshire Swash', cursive;
 
@@ -78,7 +78,7 @@ body {
 
 .subserv {
     font-style: italic;
-    color: black;
+    color: #3f75a2;
     font-size: medium;
 }
 .logoimg {
@@ -285,9 +285,7 @@ body {
 .pic20 {
     content: url("23hair.jpg");
 }
-.serviceslist {
-    color: black;
-}
+
 
 /* end of star button CSS */
 /* For size adjustments*/
